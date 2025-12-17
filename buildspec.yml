@@ -21,7 +21,7 @@ phases:
   post_build:
     commands:
       - echo "Build complete - $(ls -la output/)"
-      - aws cloudfront create-invalidation --distribution-id dguco0r0wo26i.cloudfront.net --paths "/*"
+
 
       
 artifacts:
